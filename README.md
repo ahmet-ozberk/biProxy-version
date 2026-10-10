@@ -2,7 +2,7 @@
 
 macOS için biProxy kurulum paketleri ve imzalı güncelleme manifesti.
 
-İlk sürüm: **0.0.1-beta01**. Sonraki beta sürümleri `0.0.1-beta02`, `0.0.1-beta03` şeklinde ilerler. Kararlı sürüm `0.0.1` aynı sürümün tüm betalarından daha yenidir.
+İlk sürüm: **1.0.0-beta01**. Sonraki beta sürümleri `1.0.0-beta02`, `1.0.0-beta03` şeklinde ilerler. Kararlı sürüm `1.0.0` aynı sürümün tüm betalarından daha yenidir.
 
 [İndirilecek sürümler](https://github.com/ahmet-ozberk/biProxy-version/releases)
 
