@@ -1,10 +1,28 @@
 {
   "schema": 1,
   "channels": {
-    "beta": "0.0.1-beta07"
+    "beta": "0.0.1-beta08"
   },
   "minimumVersion": null,
   "releases": [
+    {
+      "version": "0.0.1-beta08",
+      "channel": "beta",
+      "date": "2026-11-02",
+      "notes": {
+        "tr": "- **Wi-Fi proxy IP'si otomatik güncellenir:** Mac'in IP adresi değiştiğinde (ör. yeni DHCP adresi) kayıtlı Wi-Fi proxy adresi aynı ağdaki yeni IP'ye taşınır ve bir bildirimle haber verilir. Telefondaki proxy ayarını yeni IP ile güncellemen yeterli.\n- **Düzeltme:** Eski Wi-Fi IP'si yüzünden proxy'nin hiç başlamaması ve Hızlı kurulumda iOS, Android ve macOS adımlarının \"Listener IP must belong to a local interface\" hatasıyla düşmesi giderildi.",
+        "en": "- **Wi-Fi proxy IP follows the Mac:** When the Mac's IP address changes (e.g. a new DHCP lease), the saved Wi-Fi proxy address moves to the new IP on the same network and a notification tells you. Just update the phone's proxy setting to the new IP.\n- **Fix:** The proxy no longer fails to start because of an old Wi-Fi IP, which made the iOS, Android and macOS steps in Quick setup fail with \"Listener IP must belong to a local interface\"."
+      },
+      "artifacts": {
+        "macos-arm64": {
+          "url": "https://github.com/ahmet-ozberk/biProxy-version/releases/download/v0.0.1-beta08/biProxy-0.0.1-beta08-macos-arm64.zip",
+          "size": 123579590,
+          "sha256": "6ef7727b872e47f449650372659ff9a2da03076cb67e2697bd31cfe4c0548bae"
+        }
+      },
+      "page": "https://github.com/ahmet-ozberk/biProxy-version/releases/tag/v0.0.1-beta08",
+      "withdrawn": false
+    },
     {
       "version": "0.0.1-beta07",
       "channel": "beta",
