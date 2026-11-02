@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "channels": {
+    "beta": "0.0.1-beta07"
+  },
+  "minimumVersion": null,
+  "releases": [
+    {
+      "version": "0.0.1-beta07",
+      "channel": "beta",
+      "date": "2026-11-02",
+      "notes": {
+        "tr": "- **Uygulama içi güncelleme:** biProxy yeni sürümleri kendisi denetler; güncellemeyi uygulama içinden indirip kurar ve yeniden başlar.\n- İndirilen paketin imzası, SHA-256 özeti ve Apple notarization onayı kurulumdan önce doğrulanır; sorun olursa önceki sürüm geri yüklenir.\n- Güncelleme denetimi Ayarlar › Genel bölümünden, kenar çubuğundan ve menü çubuğu simgesinden yapılabilir; yeni sürüm bulunduğunda bildirim gönderilir.\n- Otomatik denetim kapatılabilir, güncelleme kanalı (beta/kararlı) seçilebilir ve bir sürüm atlanabilir.\n- Uygulama dışında açılan dialogların arka planı artık opak; yazılar okunaklı.\n- Not: Bu sürüme 0.0.1-beta06 ve öncesinden DMG ile elle geçilmelidir; sonraki sürümler uygulama içinden gelir.",
+        "en": "- **In-app updates:** biProxy checks for new versions on its own, downloads and installs them from inside the app, then restarts.\n- The downloaded package's signature, SHA-256 digest and Apple notarization are verified before installing; on failure the previous version is restored.\n- Check for updates from Settings › General, the sidebar or the menu bar icon; you get a notification when a new version is available.\n- Automatic checks can be turned off, the update channel (beta/stable) can be chosen and a version can be skipped.\n- Dialogs shown outside the main window now have an opaque background, so their text stays readable.\n- Note: Moving to this version from 0.0.1-beta06 or earlier requires installing the DMG manually; later versions arrive in the app."
+      },
+      "artifacts": {
+        "macos-arm64": {
+          "url": "https://github.com/ahmet-ozberk/biProxy-version/releases/download/v0.0.1-beta07/biProxy-0.0.1-beta07-macos-arm64.zip",
+          "size": 123560600,
+          "sha256": "2cd8c7ed1ee998a4c23036acf8e731d4a9c28001b1db4998b4eb5daf55b89c66"
+        }
+      },
+      "page": "https://github.com/ahmet-ozberk/biProxy-version/releases/tag/v0.0.1-beta07",
+      "withdrawn": false
+    }
+  ]
+}
