@@ -1,10 +1,28 @@
 {
   "schema": 1,
   "channels": {
-    "beta": "0.0.1-beta08"
+    "beta": "0.0.1-beta09"
   },
   "minimumVersion": null,
   "releases": [
+    {
+      "version": "0.0.1-beta09",
+      "channel": "beta",
+      "date": "2026-11-03",
+      "notes": {
+        "tr": "- **Kompakt mod:** Ayarlar > Görünüm, menü çubuğu ve Görünüm menüsünden açılabilen daha sıkı bir arayüz.\n- **Renk şemaları:** Yeni renk paletleri ve yenilenen uygulama simgesi.\n- **Arayüz iyileştirmeleri:** Yazı boyutu, boşluk ve satır kaydırma tutarsızlıkları giderildi; açık temada pencere kenarlığı artık temaya uyuyor.",
+        "en": "- **Compact mode:** A denser layout you can turn on from Settings > Appearance, the menu bar or the View menu.\n- **Color schemes:** New color palettes and a refreshed app icon.\n- **UI polish:** Fixed font size, spacing and wrapping inconsistencies; the window outline now matches the light theme."
+      },
+      "artifacts": {
+        "macos-arm64": {
+          "url": "https://github.com/ahmet-ozberk/biProxy-version/releases/download/v0.0.1-beta09/biProxy-0.0.1-beta09-macos-arm64.zip",
+          "size": 123780871,
+          "sha256": "f4655922a2ce2af0075e35782934981596d34866be8e4fed614b9e66fc4264ae"
+        }
+      },
+      "page": "https://github.com/ahmet-ozberk/biProxy-version/releases/tag/v0.0.1-beta09",
+      "withdrawn": false
+    },
     {
       "version": "0.0.1-beta08",
       "channel": "beta",
