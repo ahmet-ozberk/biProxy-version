@@ -1,10 +1,28 @@
 {
   "schema": 1,
   "channels": {
-    "beta": "0.0.1-beta09"
+    "beta": "0.0.1-beta10"
   },
   "minimumVersion": null,
   "releases": [
+    {
+      "version": "0.0.1-beta10",
+      "channel": "beta",
+      "date": "2026-11-04",
+      "notes": {
+        "tr": "- **Akıcı sekme geçişleri:** Kenar çubuğunda ekranlar arasında geçiş artık animasyonsuz ve anında; ziyaret edilen ekranlar açık kalıyor, ilk açılışlar da arka planda hazırlanıyor.\n- **Takılmalar giderildi:** Kurulum ekranına girerken ve cihaz durumu yenilenirken yaşanan kısa donmalar giderildi.\n- **Güncelleme kontrolü:** Yüklü sürüm ayarlar kenar çubuğunun altına taşındı; buradaki düğmeyle güncellemeleri elle denetleyebilirsiniz.",
+        "en": "- **Smooth section switching:** Switching screens from the sidebar is now instant with no animation; visited screens stay open and first visits are prepared in the background.\n- **Stutter fixes:** Fixed the short freezes when opening Setup and while device status refreshes.\n- **Update check:** The installed version moved to the bottom of the settings sidebar, with a button to check for updates manually."
+      },
+      "artifacts": {
+        "macos-arm64": {
+          "url": "https://github.com/ahmet-ozberk/biProxy-version/releases/download/v0.0.1-beta10/biProxy-0.0.1-beta10-macos-arm64.zip",
+          "size": 123853245,
+          "sha256": "7d426634b2614c25b658cad5fabccae57fbd6a226fb47e0550146b82a398d285"
+        }
+      },
+      "page": "https://github.com/ahmet-ozberk/biProxy-version/releases/tag/v0.0.1-beta10",
+      "withdrawn": false
+    },
     {
       "version": "0.0.1-beta09",
       "channel": "beta",
