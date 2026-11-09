@@ -11,6 +11,8 @@ değiştir ve tekrar oynat — tek tıkla kurulum.
 
 [English](README.md) · **Türkçe**
 
+[Web sitesi](https://biproxy.pages.dev)
+
 [![Son sürüm](https://img.shields.io/github/v/release/ahmet-ozberk/biProxy-version?include_prereleases&sort=date&label=son%20s%C3%BCr%C3%BCm&color=7F52FF)](https://github.com/ahmet-ozberk/biProxy-version/releases)
 [![Yayın tarihi](https://img.shields.io/github/release-date-pre/ahmet-ozberk/biProxy-version?label=yay%C4%B1nland%C4%B1)](https://github.com/ahmet-ozberk/biProxy-version/releases)
 [![İndirme](https://img.shields.io/github/downloads/ahmet-ozberk/biProxy-version/total?label=indirme&color=green)](https://github.com/ahmet-ozberk/biProxy-version/releases)
